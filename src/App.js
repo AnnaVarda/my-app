@@ -1,15 +1,16 @@
 import React from "react";
-import Home from "./Home";
-
-import './App.css';
+import "./css/reset.css";
+import "./css/style.css";
+import MenuCart from "./containers/MenuCart";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">        
-       <h1>Hello World</h1>
-       <Home />        
-      </header>
+    <div className="container">
+      <div id="app-holder">
+        <div>    
+          <MenuCart />        
+        </div>
+      </div>
     </div>
   );
 }
