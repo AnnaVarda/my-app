@@ -1,21 +1,34 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 
-const Home = () => {
-	//let name = 'Mario';
-	const [name, setName] = useState('Mario');
-	
-	
-	const handleClick = () => {
-		setName('Luigi');
-	}
+function Home() {
+    return (
 
-    return ( 
-        <div className="home">
-            <h2>Homepage</h2>
-						<p>{ name }</p>
-            <button onClick={handleClick}>Click me</button>
+        <div className="homepage">
+        <Container>
+            <Row>
+            <Col xs={6} md={4}>
+            <h2>My Story</h2>
+            <p>Lorem ipsum...</p>
+            <Button>Read more...</Button>
+            </Col>
+           <Col xs={6} md={4}>
+           <Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" rounded />
+           </Col>
+            </Row>
+            <Row>
+            <Col xs={6} md={4}>
+           <Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" rounded />
+           </Col>
+            <Col xs={6} md={4}>
+            <h2>My Story</h2>
+            <p>Lorem ipsum...</p>
+            <Button>Read more...</Button>
+            </Col>
+            </Row>
+        </Container>
         </div>
-     );
+    );
 }
- 
+
 export default Home;
