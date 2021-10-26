@@ -7,24 +7,32 @@ function Home() {
         <div className="homepage">
         <Container>
             <Row>
-            <Col xs={6} md={4}>
+            <Col lg={6}>
             <h2>My Story</h2>
             <p>Lorem ipsum...</p>
             <Button>Read more...</Button>
             </Col>
-           <Col xs={6} md={4}>
-           <Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" rounded />
+           <Col lg={6}>
+           <p><Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" alt="First dance image" fluid /></p>
+           </Col>          
+             
+            <Col lg={6}>
+           <p><Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" alt="Second dance image" fluid /></p>
            </Col>
-            </Row>
-            <Row>
-            <Col xs={6} md={4}>
-           <Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" rounded />
-           </Col>
-            <Col xs={6} md={4}>
-            <h2>My Story</h2>
+            <Col  lg={6}>
+            <h2>Dance Lessons</h2>
             <p>Lorem ipsum...</p>
             <Button>Read more...</Button>
             </Col>
+        
+            <Col  lg={6}>
+            <h2>Fitness Lessons</h2>
+            <p>Lorem ipsum...</p>
+            <Button>Read more...</Button>
+            </Col>
+           <Col  lg={6}>
+           <p><Image src="https://upload.wikimedia.org/wikipedia/commons/3/38/Two_dancers.jpg" alt="First dance image" fluid /></p>
+           </Col>
             </Row>
         </Container>
         </div>
