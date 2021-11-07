@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/reset.css";
 import "./css/style.css";
-import MenuCart from "./containers/MenuCart";
+//import MenuCart from "./containers/MenuCart";
 import Navbar from "./components/Navbar";
 import Header from './components/Header';
 import Feature from "./components/Feature";
@@ -29,7 +29,7 @@ function App() {
       <div className="container">      
       <div id="app-holder">
         <div>    
-          <MenuCart />        
+                
         </div>
       </div>
       </div>
