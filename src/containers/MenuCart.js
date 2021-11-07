@@ -18,6 +18,7 @@ function MenuCart() {
       }
     });
 
+
     const [cartData, setCartData] = useState({});
     const [cartTotal, setCartTotal] = useState(0);
 

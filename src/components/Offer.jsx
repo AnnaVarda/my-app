@@ -8,7 +8,7 @@ function Offer() {
                 <h1>A BIG <span>OFFER</span> FOR THIS SEASON</h1>
                 <p className='details'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <div className='pr-btns'>
-                    <a href="#" className='pr-btn'>JOIN NOW</a>
+                    <button className='pr-btn'>JOIN NOW</button>
                 </div>
             </div>
         </div>
