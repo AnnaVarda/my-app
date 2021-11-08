@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../images/swanLogo4.png';
+import logo from '../images/swanLogoWhite.png';
 import {Link} from 'react-scroll';
 
 function Navbar() {

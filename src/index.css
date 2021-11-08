@@ -72,7 +72,7 @@ nav ul{
 	display: flex;
 }
 .active{
-    background-color: #FF1414;
+    background-color: #2e6922;
     color:#ffffff;
 	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
 	transition: all ease 0.2s;
@@ -99,7 +99,7 @@ nav ul li a{
     transition: 0.2s ease-in-out;
 }
 nav ul li a:hover{
-	background-color: #FF1414;
+	background-color: #f87509;
     color:#ffffff;
 	box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
 	transition: all ease 0.2s;
@@ -118,7 +118,8 @@ nav .menu-btn,
 	transform: translate(-50%,-55%);
 }
 .name span{
-    color: #FF1414;
+    color: #f87509;
+    ;
 }
 .name .details{
     font-size: 23px;
@@ -151,7 +152,7 @@ nav .menu-btn,
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #FF1414;
+    background-color: #f87509;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
 	color:#ffffff;
@@ -160,7 +161,7 @@ nav .menu-btn,
 	background-color: transparent;
     transition: all ease 0.5s;
     color: #ffffff;
-    border: 2px solid #FF1414;
+    border: 2px solid #f87509;
 }
 #features{
   width:100%;
@@ -208,7 +209,7 @@ nav .menu-btn,
 
 }
 .a-box:hover{
-  border: 1px solid #FF1414;
+  border: 1px solid #f87509;
   box-shadow: 2px 2px 12px rgba(184, 0, 0, 0.445);
 }
 .a-b-text{
@@ -266,7 +267,7 @@ top: 55%;
 transform: translate(-50%,-55%);
 }
 .pr-heading span{
-  color: #FF1414;
+  color: #f87509;
 }
 .pr-heading .details{
   font-size: 23px;
@@ -294,7 +295,7 @@ display: flex;
 justify-content: center;
   align-items: center;
   font-size: 1.4rem;
-  background-color: #FF1414;
+  background-color: #f87509;
   box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
   border-radius: 5px;
 color:#ffffff;
@@ -303,7 +304,7 @@ color:#ffffff;
 background-color: transparent;
   transition: all ease 0.5s;
   color: #ffffff;
-  border: 2px solid #FF1414;
+  border: 2px solid #f87509;
 }
 
 #about{
@@ -325,7 +326,7 @@ position: relative;
 }
 .about-text h1{
 font-size: 3rem;
-color:#FF1414;
+color:#f87509;
   font-weight: 500;
   margin: 0px;
 padding: 0px;
@@ -344,7 +345,7 @@ border-radius: 10px;
 border: none;
   outline: none;
   color: #ffffff;
-background-color:#FF1414;
+background-color:#f87509;
 }
 .about-text button:hover{
   box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
@@ -395,7 +396,7 @@ width: 600px;
 }
 #contact form input[type="submit"]{
   height: 45px;
-  background: linear-gradient(90deg, #FF1414 20%,#f70000);
+  background: linear-gradient(90deg, #f87509 20%,#f70000);
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -534,7 +535,7 @@ width: 600px;
           top:65px;
           left:0px;
           background-color:#000000;
-          border-bottom:4px solid #FF1414;
+          border-bottom:4px solid #f87509;
           width:100%;
           padding:0px;
           margin:0px;
