@@ -8,7 +8,6 @@ import Feature from "./components/Feature";
 import Offer from "./components/Offer";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Home from "./components/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -21,18 +20,6 @@ function App() {
       <Offer />
       <About />
       <Contact />
-     <Home />
-    <div className="content">
-        
-      </div> 
-        
-      <div className="container">      
-      <div id="app-holder">
-        <div>    
-                
-        </div>
-      </div>
-      </div>
     </div>
   );
 }
